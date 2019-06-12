@@ -1,6 +1,6 @@
 {
     "name": "stratum-pool",
-    "version": "0.1.9",
+    "version": "0.2.0",
     "description": "High performance Stratum poolserver in Node.js",
     "keywords": [
         "stratum",
@@ -10,9 +10,7 @@
         "poolserver",
         "bitcoin",
         "litecoin",
-        "scrypt",
-        "equihash",
-        "zhash"
+        "scrypt"
     ],
     "homepage": "https://github.com/cod3gen/node-stratum-pool",
     "bugs": {
@@ -22,6 +20,8 @@
     "author": "cod3gen",
     "contributors": [
         "Matthew Little",
+        "s-nomp developers",
+        "egyptianbman",
         "vekexasia",
         "TheSeven"
     ],
@@ -31,12 +31,17 @@
         "url": "https://github.com/cod3gen/node-stratum-pool.git"
     },
     "dependencies": {
-        "multi-hashing": "git://github.com/cod3gen/node-multi-hashing.git#updated",
+        "multi-hashing": "git://github.com/cod3gen/node-multi-hashing.git",
         "bignum": "0.13.0",
         "base58-native": "*",
-        "async": "*"
+        "async": "*",
+        "bitgo-utxo-lib": "git+https://github.com/miketout/bitgo-utxo-lib.git",
+        "equihashverify": "git+https://github.com/s-nomp/equihashverify.git",
+        "verushash": "git+https://github.com/VerusCoin/verushash-node#e6572f345b8c24e4a1212f6c9eb66c1c400d83e1",
+        "merkle-bitcoin": "^1.0.2",
+        "promise": "^8.0.1"
     },
     "engines": {
-        "node": ">=0.10"
+        "node": ">=8.11"
     }
 }
