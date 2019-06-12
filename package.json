@@ -10,25 +10,28 @@
         "poolserver",
         "bitcoin",
         "litecoin",
-        "scrypt"
+        "scrypt",
+        "equihash",
+        "zhash"
     ],
-    "homepage": "https://github.com/zone117x/node-stratum-pool",
+    "homepage": "https://github.com/cod3gen/node-stratum-pool",
     "bugs": {
-        "url": "https://github.com/zone117x/node-stratum-pool/issues"
+        "url": "https://github.com/cod3gen/node-stratum-pool/issues"
     },
     "license": "GPL-2.0",
-    "author": "Matthew Little",
+    "author": "cod3gen",
     "contributors": [
+        "Matthew Little",
         "vekexasia",
         "TheSeven"
     ],
     "main": "lib/index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/zone117x/node-stratum-pool.git"
+        "url": "https://github.com/cod3gen/node-stratum-pool.git"
     },
     "dependencies": {
-        "multi-hashing": "git://github.com/zone117x/node-multi-hashing.git",
+        "multi-hashing": "git://github.com/cod3gen/node-multi-hashing.git#updated",
         "bignum": "0.12.5",
         "base58-native": "*",
         "async": "*"
