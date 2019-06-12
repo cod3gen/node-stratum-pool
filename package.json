@@ -31,8 +31,8 @@
         "url": "https://github.com/cod3gen/node-stratum-pool.git"
     },
     "dependencies": {
-        "multi-hashing": "git://github.com/cod3gen/node-multi-hashing.git#updated",
-        "bignum": "0.12.5",
+        "multi-hashing": "git://github.com/cod3gen/node-multi-hashing.git",
+        "bignum": "0.13.0",
         "base58-native": "*",
         "async": "*"
     },
